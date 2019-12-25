@@ -1,0 +1,25 @@
+Write a program to calculate whether an input number is even or odd.
+Code:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int a;
+            Console.WriteLine("enter any number:");
+            a = int.Parse(Console.ReadLine());
+            if (a % 2 == 0)
+                Console.WriteLine("number is even ");
+            else
+                Console.WriteLine("number is ODD ");
+            Console.ReadKey();      }
+    }
+}
